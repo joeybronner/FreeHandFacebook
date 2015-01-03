@@ -7,5 +7,9 @@
     <string name="title_activity_settings">Paramètres</string>
     <string name="title_activity_home">Accueil</string>
     <string name="action_logout">Se déconnecter</string>
+    <string name="need_fb_account">Connectez-vous à l\u0027aide de votre compte Facebook</string>
+    <string name="informationDescription">A propos des droits de l\u0027application</string>
+    <string name="title_activity_informations">InformationsActivity</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

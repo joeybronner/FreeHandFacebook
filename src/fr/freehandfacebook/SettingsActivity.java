@@ -16,7 +16,7 @@ public class SettingsActivity extends FragmentActivity {
 		// Hide Action Bar
 		ActionBar bar = getActionBar();
 		bar.hide();
-
+		
 	    if (savedInstanceState == null) {
 	        // Add the fragment on initial activity setup
 	        mainFragment = new MainFragment();

@@ -8,12 +8,31 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="fr.freehandfacebook.SettingsActivity" >
 
+    <TextView
+        android:id="@+id/tvConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/need_fb_account"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
     <com.facebook.widget.LoginButton
         android:id="@+id/authButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/tvConnect"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        />
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/buttonInfos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/authButton"
+        android:layout_alignTop="@+id/authButton"
+        android:layout_alignBottom="@+id/authButton"
+        android:background="@drawable/information64" />
     
 </RelativeLayout>
