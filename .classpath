@@ -5,7 +5,6 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
-	<classpathentry exported="true" kind="src" path="/FacebookSDK"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Joey/Documents/workspace-android/FreeHandFacebook/libs/robotium-solo-5.2.1.jar"/>
+	<classpathentry kind="src" path="/FacebookSDK"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

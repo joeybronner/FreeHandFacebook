@@ -35,7 +35,7 @@ public class HomeActivity extends Activity {
 			session.closeAndClearTokenInformation();
 		}
 		else {
-			Session session2 = Session.openActiveSession((Activity)this, false, null);
+			Session session2 = Session.openActiveSession(this, false, null);
 			if(session2 != null)
 				session2.close();
 			session2.closeAndClearTokenInformation();
